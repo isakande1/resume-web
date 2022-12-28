@@ -66,9 +66,6 @@ p {
   color: crimson;
 }
 
-video {
-  cursor: pointer;
-}
 img,
 video {
   height: 100%;
@@ -624,6 +621,11 @@ h1 {
   #projects .all-projects .project-image {
     height: 100%;
   }
+  /* #projects .project-image video {
+    height:100% ;
+    width: 100%;
+    object-fit: cover;
+  } */
   /* end project */
   /* about */
   #about .about {
