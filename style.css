@@ -266,6 +266,34 @@ video {
 }
 
 /* end of hero section */
+
+
+
+/* Education / Professional experience*/
+
+.title h1 {
+  text-align:center; 
+  color:black;
+  padding-top: 50px;
+  font-size:4rem;
+  text-transform:uppercase;
+  letter-spacing:0.2rem;
+}
+.description{
+  max-width:1000px;
+  padding:85px 0;
+  margin:50px auto;
+  background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+}
+.description p {
+  word-break: break-all;
+  white-space:pre;
+  color: white;
+  text-align: left;
+  font-size: 1.9rem;
+  line-height: 1.9rem;
+}
+/* end of education/ professional experience */
 /*  services section*/
 
 #services .service {
@@ -284,7 +312,7 @@ video {
   letter-spacing: 0.2rem;
   text-align: center;
 }
-#services .section-title span {
+ span {
   color: crimson;
 }
 #services .service-item p {
@@ -405,6 +433,9 @@ video {
   overflow: hidden;
   position: relative;
 }
+
+
+
 /* #projects .project-image::after {
   content: "";
   position: absolute;
@@ -443,7 +474,7 @@ video {
   font-size: 1.9rem;
   font-weight: 300;
   line-height: 1.5;
-  max-width: 75ch;
+  width: 75ch;
   letter-spacing: 0.2rem;
   margin-bottom: 10px;
 }
