@@ -286,8 +286,8 @@ video {
   background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
 }
 .description p {
-  word-break: break-all;
-  white-space:pre;
+  /* overflow-wrap: break-word;  */
+   white-space:pre-wrap; 
   color: white;
   text-align: left;
   font-size: 1.9rem;
