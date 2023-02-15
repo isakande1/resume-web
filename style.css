@@ -20,7 +20,7 @@ a {
   align-items: center;
   justify-content: center;
 }
-#education .container{
+#education .container, #experience .container{
   flex-direction:column ;
 }
 p {
