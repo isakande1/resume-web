@@ -16,6 +16,7 @@ a {
   min-height: 100vh;
   width: 100%;
   display: flex;
+  flex-direction:column;
   align-items: center;
   justify-content: center;
 }
@@ -124,7 +125,7 @@ video {
   text-decoration: none;
   color: white;
   text-transform: uppercase;
-  padding: 20px;
+  padding: 10px;
   display: block;
 }
 #header .nav-list ul a::after {
@@ -274,7 +275,7 @@ video {
 .title h1 {
   text-align:center; 
   color:black;
-  padding-top: 50px;
+  padding-top: 10px;
   font-size:4rem;
   text-transform:uppercase;
   letter-spacing:0.2rem;
@@ -282,7 +283,7 @@ video {
 .description{
   max-width:1000px;
   padding:85px 0;
-  margin:50px auto;
+   margin:50px auto; 
   background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
 }
 .description p {
@@ -292,6 +293,7 @@ video {
   text-align: left;
   font-size: 1.9rem;
   line-height: 1.9rem;
+  
 }
 /* end of education/ professional experience */
 /*  services section*/
@@ -301,7 +303,7 @@ video {
   text-align: center;
   max-width: 1500px;
   margin: 0 auto;
-  padding: 100px 0;
+  padding: 10px 0;
 }
 #services .section-title {
   font-size: 4rem;
@@ -458,8 +460,10 @@ video {
   margin-bottom: 10px;
 }
 #about .col-right p {
-  word-wrap: break-word;
-   overflow:hidden; 
+   /* text-align: justify;
+  justify-content:inter-word; 
+   word-wrap: break-word;
+   overflow:hidden;  */
   font-size: 1.9rem;
   font-weight: 300;
   line-height: 1.5;
