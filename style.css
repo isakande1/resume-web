@@ -291,7 +291,7 @@ video {
 }
 .description p {
   /* overflow-wrap: break-word;  */
-   white-space:pre-wrap; 
+  white-space:pre-wrap; 
   color: white;
   text-align: left;
   font-size: 1.9rem;
