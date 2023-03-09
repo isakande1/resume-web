@@ -299,8 +299,10 @@ video {
   
 }
 /* end of education/ professional experience */
-/*  services section*/
-
+/*  Skills section*/
+#services .service-bottom .service-item p, h2{
+  text-align: left;
+}
 #services .service {
   flex-direction: column;
   text-align: center;
@@ -335,7 +337,7 @@ video {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  margin-top: 50px;
+  /* margin-top: 50px; */
 }
 
 #services .service-item {
@@ -383,9 +385,8 @@ video {
   margin: 0 auto;
   padding: 100px 0;
 }
-#ptojects .projects-header h1 {
-  margin-bottom: 50px;
-}
+ 
+
 #projects .all-projects {
   display: flex;
   align-items: center;
@@ -508,7 +509,7 @@ video {
 }
 #contact .contact-items {
   width: 400px;
-}
+} 
 #contact .contact-item {
   width: 80%;
   padding: 20px;
@@ -537,7 +538,8 @@ video {
   padding-bottom: 5px;
   color: black;
 }
-#contact .contact-info h2 {
+#contact .contact-info h2{
+  word-wrap: break-word;
   font-size: 2.5rem;
   font-weight: 500;
   line-height: 2rem;
@@ -550,6 +552,7 @@ video {
   background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
 }
 #footer .footer {
+  /* margin-top:100px; */
   min-height: 200px;
   flex-direction: column;
   padding-top: 50px;
@@ -557,6 +560,7 @@ video {
 }
 #footer h2,
 h1 {
+  
   color: white;
   font-weight: 500;
   font-size: 1.8rem;
@@ -637,7 +641,7 @@ h1 {
   /* end hero */
   /*skills or service  section  */
   #services .service-bottom .service-item {
-    flex-basis: 45%;
+    flex-basis: 50%;
     margin: 2.5%;
   }
   /* end  skills section*/
