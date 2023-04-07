@@ -557,7 +557,7 @@ video {
   min-height: 200px;
   flex-direction: column;
   padding-top: 50px;
-  padding-bottom: 10px;
+   padding-bottom: 10px; 
 }
 #footer h2,
 h1 {
