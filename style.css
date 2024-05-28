@@ -354,6 +354,7 @@ video {
   position: relative;
   z-index: 1;
   overflow: hidden;
+  height: 270px;
 }
 #services .service-item::after {
   content: "";
