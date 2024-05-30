@@ -20,6 +20,11 @@ a {
   align-items: center;
   justify-content: center;
 }
+#education{
+  margin-top: -100px;
+  margin-bottom: -250px;
+}
+
 #education .container, #experience .container{
   flex-direction:column ;
 }
@@ -29,8 +34,11 @@ p {
   margin-top: 5px;
   font-weight: 300;
   letter-spacing: 0.05rem;
+  font-family: sans-serif;
   line-height: 2.5rem;
+  font-size: 20px;
   color: black;
+  
 }
 .cta {
   display: inline-block;
@@ -213,17 +221,28 @@ video {
   background-position: top center;
   position: relative;
   z-index: 1;
+  height: 660px;
 }
-#hero::after {
+
+#hero p{
+  font-weight: bold;
+  line-height: 1;
+  color: white;
+  font-family: sans-serif;
+  text-align: left;
+  font-size: 35px;
+
+}
+
+#hero::before {
   content: "";
   position: absolute;
-  left: 0;
   top: 0;
-  height: 100%;
-  width: 100%;
-  background-color: black;
-  opacity: 0.2;
-  z-index: -1;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Adjust the opacity as needed */
+  z-index: -1; /* Ensure it is above the background but below any other content */
 }
 #hero .hero {
   max-width: 1200px;
@@ -310,6 +329,7 @@ video {
   max-width: 1500px;
   margin: 0 auto;
   padding: 10px 0;
+  margin-bottom: -150px;
 }
 #services .section-title {
   font-size: 4rem;
@@ -340,6 +360,8 @@ video {
   flex-wrap: wrap;
   /* margin-top: 50px; */
 }
+
+
 
 #services .service-item {
   flex-basis: 80%;
@@ -387,7 +409,10 @@ video {
   margin: 0 auto;
   padding: 100px 0;
 }
- 
+ #projects{
+  margin-bottom: -150px;
+ }
+
 
 #projects .all-projects {
   display: flex;
@@ -456,6 +481,9 @@ video {
   width: 250px;
   height: 360px;
 }
+#about{
+  margin-bottom: -400px;
+}
 #about .col-right {
   width: 100%;
 }
@@ -512,6 +540,9 @@ video {
 #contact .contact-items {
   width: 400px;
 } 
+#contact{
+  margin-bottom: -200px;
+}
 #contact .contact-item {
   width: 80%;
   padding: 20px;
