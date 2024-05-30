@@ -231,7 +231,7 @@ video {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.5); /* Adjust the opacity as needed */
+  background-color: rgba(0, 0, 0, 0.7); /* Adjust the opacity as needed */
   z-index: -1; /* Ensure it is above the background but below any other content */
 }
 
@@ -239,7 +239,7 @@ video {
 .hero.container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 200px 50px;
+  padding: 17% 50px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start; /* Align items to the start (left) */
@@ -247,7 +247,7 @@ video {
 }
 
  .button {
-  margin-top: 100px; /* Remove any default margins */
+  margin-top: 10%; /* Remove any default margins */
    /* Remove any default padding */
 }
 
@@ -266,9 +266,7 @@ video {
   flex-direction: column;
 }
 
-.butto {
-  margin-top: 20px; /* Add space between the text and button */
-}
+
 
 .cta {
   display: inline-block;
@@ -280,8 +278,8 @@ video {
 }
 
 
-#hero h1 {
-  display: block;
+#hero p {
+  display: inline-block;
   width: fit-content;
   font-size: 4rem;
   position: relative;
@@ -289,34 +287,33 @@ video {
   animation: text-reveal 0.5s ease forwards;
   animation-delay: 1s;
 }
-#hero h1:nth-child(1) {
+#hero p:nth-child(1) {
   animation-delay: 1s;
 }
-#hero h1:nth-child(2) {
+#hero p:nth-child(2) {
   animation-delay: 2s;
 }
-#hero h1:nth-child(3) {
+#hero p:nth-child(3) {
   animation: text-reveal-name 0.5s ease forwards;
   animation-delay: 3s;
 }
-#hero h1 span {
+#hero p span {
   position: absolute;
-  top: 0;
-  left: 0;
+ 
   height: 100%;
-  width: 0;
+  width: 0; 
   background-color: crimson;
   animation: text-reveal-box 1s ease;
   animation-delay: 0.5s;
 }
-#hero h1:nth-child(1) span {
-  animation-delay: 0.5s;
+#hero p:nth-child(1) span {
+  animation-delay: 1s;
 }
-#hero h1:nth-child(2) span {
-  animation-delay: 1.5s;
+#hero p:nth-child(2) span {
+  animation-delay: 2s;
 }
-#hero h1:nth-child(3) span {
-  animation-delay: 2.5s;
+#hero p:nth-child(3) span {
+  animation-delay: 3;
 }
 
 
@@ -668,12 +665,12 @@ h1 {
 }
 @keyframes text-reveal {
   100% {
-    color: whitesmoke;
+    color: white;
   }
 }
 @keyframes text-reveal-name {
   100% {
-    color: lightcyan;
+    color: white;
     font-weight: 500;
   }
 }
