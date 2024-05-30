@@ -224,6 +224,12 @@ video {
   height: 660px;
 }
 
+#hero .intro{
+  margin-top: -290px;
+}
+
+
+
 #hero p{
   font-weight: bold;
   line-height: 1;
@@ -248,8 +254,12 @@ video {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 50px;
+  display: flex;
+  flex-direction: row;
   justify-content: flex-start;
+  
 }
+
 #hero h1 {
   display: block;
   width: fit-content;
@@ -288,6 +298,7 @@ video {
 #hero h1:nth-child(3) span {
   animation-delay: 2.5s;
 }
+
 
 /* end of hero section */
 
