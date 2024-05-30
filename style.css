@@ -224,22 +224,6 @@ video {
   height: 660px;
 }
 
-#hero .intro{
-  margin-top: -290px;
-}
-
-
-
-#hero p{
-  font-weight: bold;
-  line-height: 1;
-  color: white;
-  font-family: sans-serif;
-  text-align: left;
-  font-size: 35px;
-
-}
-
 #hero::before {
   content: "";
   position: absolute;
@@ -250,15 +234,51 @@ video {
   background-color: rgba(0, 0, 0, 0.5); /* Adjust the opacity as needed */
   z-index: -1; /* Ensure it is above the background but below any other content */
 }
-#hero .hero {
+
+
+.hero.container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 50px;
+  padding: 200px 50px;
   display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  
+  flex-direction: column;
+  justify-content: flex-start; /* Align items to the start (left) */
+  align-items: flex-start; /* Align items at the start of the container */
 }
+
+ .button {
+  margin-top: 100px; /* Remove any default margins */
+   /* Remove any default padding */
+}
+
+#hero p {
+  font-weight: bold;
+  line-height: 1.2; /* Slightly adjusted line height for better readability */
+  color: white;
+  font-family: sans-serif;
+  text-align: left;
+  font-size: 35px;
+  margin: 0; /* Remove default margins */
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+}
+
+.butto {
+  margin-top: 20px; /* Add space between the text and button */
+}
+
+.cta {
+  display: inline-block;
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
 
 #hero h1 {
   display: block;
