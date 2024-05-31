@@ -20,10 +20,6 @@ a {
   align-items: center;
   justify-content: center;
 }
-#education{
-  margin-top: -100px;
-  margin-bottom: -250px;
-}
 
 #education .container, #experience .container{
   flex-direction:column ;
@@ -357,7 +353,7 @@ video {
   max-width: 1500px;
   margin: 0 auto;
   padding: 10px 0;
-  margin-bottom: -150px;
+  
 }
 #services .section-title {
   font-size: 4rem;
@@ -437,10 +433,7 @@ video {
   margin: 0 auto;
   padding: 100px 0;
 }
- #projects{
-  margin-bottom: -150px;
- }
-
+ 
 
 #projects .all-projects {
   display: flex;
@@ -509,9 +502,7 @@ video {
   width: 250px;
   height: 360px;
 }
-#about{
-  margin-bottom: -400px;
-}
+
 #about .col-right {
   width: 100%;
 }
@@ -568,9 +559,7 @@ video {
 #contact .contact-items {
   width: 400px;
 } 
-#contact{
-  margin-bottom: -200px;
-}
+
 #contact .contact-item {
   width: 80%;
   padding: 20px;
@@ -730,6 +719,7 @@ h1 {
   #about .about {
     flex-direction: row;
   }
+
   #about .col-left {
     width: 500px;
     height: 350px;
@@ -813,5 +803,22 @@ h1 {
     flex-basis: 22%;
     margin: 1.5%;
   }
+  #education{
+    margin-top: -100px;
+    margin-bottom: -250px;
+  }
+  #about{
+    margin-bottom: -400px;
+  }
+  #contact{
+    margin-bottom: -200px;
+  }
+  #projects{
+    margin-bottom: -150px;
+   }
+   #services .service {
+    margin-bottom: -150px;
+  }
+  
 }
 /* end media query for desktop */
