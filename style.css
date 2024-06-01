@@ -21,8 +21,21 @@ a {
   justify-content: center;
 }
 
+h2 {
+  font-size: 2rem;
+  color: white;
+  margin-bottom: 5px;
+  
+}
 #education .container, #experience .container{
   flex-direction:column ;
+}
+#education .container h2{
+  white-space: pre-wrap;
+  margin-left: 20px;
+}
+#education .container p{
+  margin-left: 20px;
 }
 p {
   text-align: left;
@@ -417,12 +430,6 @@ video {
   height: 80px;
   width: 80px;
   margin-bottom: 20px;
-}
-#services .service-item h2 {
-  font-size: 2rem;
-  color: white;
-  margin-bottom: 10px;
-  text-transform: uppercase;
 }
 
 /* end of services section */
