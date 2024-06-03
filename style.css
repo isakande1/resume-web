@@ -45,7 +45,7 @@ p {
   letter-spacing: 0.05rem;
   font-family: sans-serif;
   line-height: 2.5rem;
-  font-size: 20px;
+  font-size: 4rem;
   color: black;
   
 }
@@ -106,9 +106,12 @@ video {
   width: 100vw;
   height: auto;
 }
+#header h2{
+  font-weight: normal;
+}
 #header .header {
   min-height: 8vh;
-  background-color: rgba(31, 30, 30, 0.24);
+  background-color: rgba(22, 5, 5, 0.457);
   transition: 0.3s ease background-color;
 }
 #header .nav-bar {
@@ -123,7 +126,7 @@ video {
 #header .nav-list ul {
   list-style: none;
   position: absolute;
-  background-color: rgb(31, 30, 30);
+  background-color: rgba(22, 5, 5, 0.457);
   width: 100vw;
   height: 100vh;
   left: 100%;
@@ -259,16 +262,16 @@ video {
   margin-top: 10%; /* Remove any default margins */
    /* Remove any default padding */
 }
-
 #hero p {
   font-weight: bold;
   line-height: 1.2; /* Slightly adjusted line height for better readability */
   color: white;
   font-family: sans-serif;
   text-align: left;
-  font-size: 15px;
+  font-size: 500px;
   margin: 0; /* Remove default margins */
 }
+
 
 .intro {
   display: flex;
@@ -290,7 +293,7 @@ video {
 #hero p {
   display: inline-block;
   width: fit-content;
-  font-size: 15px;
+  font-size: 30px;
   position: relative;
   color: transparent;
   animation: text-reveal 0.5s ease forwards;
@@ -487,6 +490,10 @@ video {
 }
 #projects .project-info p {
   color: white;
+  text-align: left;
+  font-size: 22px;
+  line-height: 2.1rem;
+  
 }
 #projects .project-image {
   flex-basis: 50%;
