@@ -266,7 +266,7 @@ video {
   color: white;
   font-family: sans-serif;
   text-align: left;
-  font-size: 35px;
+  font-size: 25px;
   margin: 0; /* Remove default margins */
 }
 
@@ -826,6 +826,14 @@ h1 {
    #services .service {
     margin-bottom: -150px;
   }
-  
+  #hero p {
+    font-weight: bold;
+    line-height: 1.2; /* Slightly adjusted line height for better readability */
+    color: white;
+    font-family: sans-serif;
+    text-align: left;
+    font-size: 35px;
+    margin: 0; /* Remove default margins */
+  }
 }
 /* end media query for desktop */
