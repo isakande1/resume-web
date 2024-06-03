@@ -290,7 +290,7 @@ video {
 #hero p {
   display: inline-block;
   width: fit-content;
-  font-size: 4rem;
+  font-size: 15px;
   position: relative;
   color: transparent;
   animation: text-reveal 0.5s ease forwards;
